@@ -56,3 +56,11 @@ def generate_keypair():
 
     d = i_mod(e, phi)
     return (e, n), (d, n)
+
+if __name__ == '__main__':
+    pair = generate_keypair()
+    print("Done")
+
+
+    text = 'asdfasdf'
+    # открытая экспонента и закрытая ограничения.
